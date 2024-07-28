@@ -1,0 +1,1020 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html,body{height: 100%;}
+:root {
+    --bs-color-1:#C8BFB0;
+    --bs-color-2:#022858;
+    --bs-color-3:#83C5ED;
+    --bs-color-4:#808080;
+    --bs-color-5:#E1E1E1;
+    --bs-color-6:#B8AA94;
+}
+.FilterSpecial {
+    box-shadow: 0px 10px 14px 0px #0000001A;
+}
+.FilterSpecial .titleFilter span{
+    padding: 5px 15px;
+    border-bottom: 3px solid var(--bs-color-2);
+}
+.FilterSpecial .ItemFilter label{
+    font-size: 11pt;
+}
+.FilterSpecial .ItemFilter:last-child{
+    margin-top: 90px;
+}
+.FilterSpecial .ItemFilter:last-child button{
+    background-color: var(--bs-color-2);
+    border: 1px solid var(--bs-color-2);
+    color: white;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.FilterSpecial .ItemFilter:last-child button:hover{
+    background-color: white;
+    color: var(--bs-color-2);
+}
+
+.FilterSpecial .ItemFilter input[type='radio']{
+    display: none;
+}
+.FilterSpecial .ItemFilter input[type='radio']:checked 
++ .check .slelected {
+    width: 8px;
+    height: 8px;
+    background-color: var(--bs-color-2);
+    border-radius: 50px;
+}
+.FilterSpecial .ItemFilter .check .slelected {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+input[type='radio']:checked ~ label span {color: var(--bs-color-2);}
+input[type='radio']:checked ~ label svg path {fill: var(--bs-color-2);}
+.FilterSpecial .ItemFilter .check {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: 1px solid var(--bs-color-6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stateStatus{
+    background-color: #F0F0F0;
+    color: var(--bs-color-4);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10.7pt;
+}
+.ModalstateFeat {
+    color: white;
+    padding: 5px 10px;
+    font-size: 10.7pt;
+    border-radius: 5px;
+}
+.ModalstateFeat.stateFeatTrue{background-color: #7FC666;}
+.ModalstateFeat.stateFeatFalse{background-color: rgb(228, 59, 59);}
+/* Main Style */
+body {
+    scroll-behavior: smooth;
+}
+.delEffect{outline: none !important; box-shadow: none !important;}
+.HRColor {background-color: var(--bs-color-1);opacity: 1;}
+.linkserious {font-size: 13pt;color: white;}
+.linkserious a {color: white;}
+.linkserious i {font-size: 18pt;}
+.linkserious span {color: var(--bs-color-1);}
+.headerMain h2{position: relative;bottom: -20px;color: var(--bs-color-1);}
+.headerMain h2 span{background-color: white;}
+.headerMain h2.colored span{color: var(--bs-color-2);}
+.Allbloglink a {
+    color: var(--bs-color-1);border: 1px solid var(--bs-color-1);
+    padding: 10px 20px 13px 20px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Allbloglink a.colored{color: var(--bs-color-2);}
+.Allbloglink a:hover {
+    color: white;
+    background-color: var(--bs-color-1);
+}
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+}
+.special{color: var(--bs-color-2);}
+/* Top-Navbar Style */
+.Top-Navbar{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.Top-Navbar .navbar-brand svg path{fill: var(--bs-color-1);}
+.Top-Navbar .navbar-toggler {color: var(--bs-color-1);}
+.Top-Navbar .navbar {border-bottom: 1px solid var(--bs-color-1);}
+.Top-Navbar .BigBg {background: rgba(2, 40, 88, 0.8)}
+.Top-Navbar .navWeb .nav-link {
+    color: var(--bs-color-1);
+    margin-left: 25px;
+    position: relative;
+    top: 0px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Top-Navbar .navWeb .nav-link:hover{top: -5px;}
+.specialNav .navWeb .nav-link{color: var(--bs-color-2);}
+.specialNav .navbar-brand svg path{fill: var(--bs-color-2);}
+.specialNav .navWeb .nav-link:hover{color: var(--bs-color-3) !important;}
+.Top-Navbar .navWeb .lang svg path{fill: var(--bs-color-1);}
+.specialNav .navWeb .lang svg path{fill: var(--bs-color-2);}
+
+.Top-Navbar .navWeb {
+    height: 100px;
+}
+.Top-Navbar .navWeb .navbar-nav,
+.Top-Navbar .navWeb .lang  {height: 100%;align-items: center;}
+.Top-Navbar .navWeb .lang {
+    border-right: 1px solid var(--bs-color-1);
+    padding-right: 100px;
+}
+.Top-Navbar .navWeb .nav-link.active,
+.Top-Navbar .navWeb .nav-link:hover {color: var(--bs-color-5);}
+.Top-Navbar .Sliderbg{
+    padding: 150px 0px 100px 0px;
+}
+.Top-Navbar .Slidersm{
+    padding: 100px 0px 50px 0px;
+}
+.Top-Navbar .Slider .describeSlider {
+    width: 60%;
+    color: var(--bs-color-1);
+    margin: auto;
+}
+.Top-Navbar .Slider .describeSlider h1{line-height: 65px;}
+.Top-Navbar .Slider .describeSlider p{
+    line-height: 40px;
+    font-size: 15pt;
+    width: 90%;
+    margin: auto;
+}
+.Top-Navbar .Slider .describeSlider .links{font-size: 10.5pt;}
+.Top-Navbar .Slider .describeSlider .contactBtn{
+    background-color: var(--bs-color-3);
+    border: 1px solid var(--bs-color-3);
+    color: white;
+    padding: 8pt 20pt;
+    border-radius: 5pt;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Top-Navbar .Slider .describeSlider .contactBtn:hover{
+    background-color: white;
+    border: 1px solid var(--bs-color-3);
+    color: var(--bs-color-3);
+}
+.Top-Navbar .Slider .describeSlider .aboutBtn{
+    color: white;
+}
+.Top-Navbar .Slider .describeSlider .aboutBtn i{
+    position: relative;
+    top: 0px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Top-Navbar .Slider .describeSlider .aboutBtn:hover i{
+    top: -5px;
+}
+
+/* Projects Style */
+.Projects {margin-top: 150px;}
+.Projects .headerProject h2{color: var(--bs-color-2);}
+.Projects .headerProject .navgation {
+    width: 170px;
+    background-color: white;
+    position: relative;
+    top: -30px;
+}
+.Projects .headerProject .navgation .btntype1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid var(--bs-color-1);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Projects .headerProject .navgation .owl-prev-custom{
+    transform: scale(-1,-1);
+}
+.Projects .headerProject .navgation .btntype1:hover{
+    background-color: var(--bs-color-3);
+    border: 1px solid var(--bs-color-3);
+}
+.Projects .headerProject .navgation .btntype1:hover path{
+    fill: white;
+}
+.Projects .SliderProjects .card {
+    border: 1px solid rgba(200, 191, 176, 0) !important;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Projects .SliderProjects .card:hover{
+    border: 1px solid rgba(200, 191, 176, 0.4) !important;
+}
+.Projects .SliderProjects .card .card-img img{height: 370px;}
+.Projects .SliderProjects .card .typeproject{
+    font-size: 9pt;
+    padding: 7px 10px;
+    background-color: var(--bs-color-2);
+    color: white;
+}
+.Projects .SliderProjects .card .detailProject {
+    border-bottom: 1px solid var(--bs-color-1);
+    border-top: 1px solid var(--bs-color-1);
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+}
+.Projects .SliderProjects .card .detailProject .detail {
+    font-size: 11pt;
+    color: var(--bs-color-4);
+}
+.Projects .SliderProjects .card .linkdetails a{
+    background-color: var(--bs-color-4);
+    padding: 1px 5px 7px 5px;
+    border: 1px solid var(--bs-color-4);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Projects .SliderProjects .card .linkdetails a svg path{fill: white;}
+.Projects .SliderProjects .card .linkdetails a:hover svg path{fill: var(--bs-color-4);}
+.Projects .SliderProjects .card .linkdetails a:hover{
+    background-color: white;
+}
+.Allprojectlink {
+        margin-top: 80px;
+}
+.Allprojectlink a h4{color: var(--bs-color-2);}
+.Allprojectlink a i{
+    color: var(--bs-color-4);font-size: 20pt;position: relative;top: 0px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Allprojectlink a:hover i{top: 10px;}
+
+/* whyAdeam style */
+.whyAdeam {margin-top: 80px;padding: 50px 0px;position: relative;}
+.whyAdeam::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background: #FAFAFA;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+    z-index: -1;
+    top: 0px;
+}
+.whyAdeam h2 {color: var(--bs-color-2);}
+.whyAdeam h2 span {color: var(--bs-color-1);}
+.whyAdeam .whydescribe {width: 70%;font-size: 15pt;color: var(--bs-color-4);}
+.whyAdeam .Whylink a{
+    background-color: var(--bs-color-4);
+    border: 1px solid var(--bs-color-4);
+    color: var(--bs-color-2);
+    padding: 8pt 20pt;
+    border-radius: 5pt;
+    font-size: 10.5pt;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.whyAdeam .Whylink a:hover {
+    background-color: white;
+    color: var(--bs-color-4);
+}
+
+.whyAdeam .itemSWhy .itemWhy {
+    border: 1px solid rgba(200, 191, 176, 0.34);
+    background-color: white;
+    box-shadow: 10px 12px 21px 0px #C8BFB033;
+    border-radius: 10px;
+}
+.whyAdeam .itemSWhy .itemWhy h6{
+    color: var(--bs-color-1);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.whyAdeam .itemSWhy .itemWhy:hover h6{color: var(--bs-color-2);}
+.whyAdeam .itemSWhy .itemWhy p{
+    color: var(--bs-color-4);
+    font-size: 7.5pt;
+}
+
+/* success Style */
+.success {
+    margin-top: 100px;padding-bottom: 200px;
+    background: url('../img/public/bgsucces.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+.success .title {position: relative;color: var(--bs-color-2);}
+.success .title::before {
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 100%;
+    background: #C8BFB0;
+    z-index: -1;
+    top: 0px;
+}
+.success .successNumbers .successNumber h1{color: var(--bs-color-2);}
+.success .successNumbers .successNumber h4{color: var(--bs-color-1);}
+
+/* tmalik style */
+.tmalik {
+    background-image: url('../img/public/gethome.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.tmalik .tmalikBg{
+    padding: 50px 0px;
+    background: linear-gradient(93.55deg, rgba(8, 59, 93, 0.8) 0.97%, rgba(171, 165, 153, 0.8) 100%);
+}
+.tmalik .tmalikBg .titletmalik {
+    line-height: 75px;
+}
+.tmalik .tmalikBg .describetmalik {
+    border-right: 1px solid #D9D9D9;
+    line-height: 35px;
+    position: relative;
+}
+.tmalik .tmalikBg .describetmalik::before{
+    content: '';
+    width: 7px;
+    height: 50px;
+    position: absolute;
+    background-color: var(--bs-color-1);
+    right: -4px;
+}
+.tmalik .tmalikBg .describetmalik p{
+    width: 95%;
+    font-size: 11.7pt;
+}
+.tmalik .tmalikBg .linktmalik a{
+    color: white;
+    margin-left: 50px;
+}
+.tmalik .tmalikBg .linktmalik a i{transform: rotate(45deg);} 
+
+/* blog style */
+.blog {margin-top: 120px;}
+.blog .title {color: var(--bs-color-2);}
+.blog .title span::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: var(--bs-color-1);
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    z-index: -1;
+    
+}
+.blog .blogItems .blogItem .img-blog img{
+    height: 285px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.blog .blogItems .blogItem .time{color: var(--bs-color-1);margin-bottom: 5px;}
+.blog .blogItems .blogItem .time span{
+    font-size: 10pt;
+}
+.blog .blogItems .blogItem h5{
+    font-size: 14.5pt;border-bottom: 1px solid var(--bs-color-1);
+    color: rgba(10, 10, 10, 0.9);
+    padding-bottom: 5px;
+}
+.blog .blogItems .blogItem p{
+    font-size: 8.4pt;
+    height: 50px;
+    overflow: hidden;
+    color: var(--bs-color-1);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.blog .blogItems .blogItem .linkblog a{
+    background-color: var(--bs-color-1);
+    border: 1px solid var(--bs-color-1);
+    color: white;
+    font-size: 8pt;
+    padding: 5pt 3pt;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.blog .blogItems .blogItem:hover p{color: rgba(10, 10, 10, 0.9);} 
+.blog .blogItems .linkblog a:hover{
+    background-color: white;
+    color: var(--bs-color-1);
+}
+.blog .blogItems .linkblog a:hover svg path {
+    fill: var(--bs-color-1);
+}
+
+
+
+
+/* filterSearch Style */
+.filterSearch {
+    padding: 50px 100px 20px 100px;
+    background-color: var(--bs-color-2);
+    margin-top: -20px;
+}
+.filterSearch2{margin-top: 0px;background: none;}
+.filterSearch .formfilter label{color: var(--bs-color-6);margin-bottom: 10px;}
+.filterSearch .formfilter .formspecial {width: 80%;margin: auto;}
+.filterSearch .formfilter .formspecial .filterRadio > label {font-size: 18px;margin-bottom: 20px;}
+.filterSearch .formfilter .formspecial .optionTypes label {
+    border: 1px solid var(--bs-color-6);
+    color: var(--bs-color-6);
+    padding: 15px 0px;
+    width: 120px;
+    text-align: center;
+    border-radius:10px;
+    cursor: pointer;
+}
+.filterSearch .formfilter .formspecial .specialfilterRadio {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.filterSearch .formfilter .formspecial .specialfilterRadio.active {
+    opacity: 1;
+    visibility: visible;
+}
+.filterSearch .formfilter .formspecial .optionTypes .check .slelected,
+.filterSearch .formfilter .formspecial .optionTypes label span,
+.filterSearch .formfilter .formspecial .optionTypes label svg path,
+.filterSearch .formfilter .formspecial .optionTypes label{
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.filterSearch .formfilter .formspecial {width: 80%;margin: auto;}
+.filterSearch .formfilter .form-select{
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white;
+    border-radius: 0px;
+    border: 1px solid var(--bs-color-6);
+    color: var(--bs-color-6);
+    padding: 10px 20px;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='rgba(184, 170, 148, 1)'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='2'%20d='M2%205l6%206%206-6'/></svg>");
+}
+.BtnSearch {
+    color: white;
+    background-color: var(--bs-color-3);
+    border: 1px solid var(--bs-color-3);
+    padding: 10px 35px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.BtnSearch:hover {
+    color: var(--bs-color-3);
+    background-color: white;
+}
+.BtnEmpty {
+    color: white;
+    background-color: var(--bs-color-4) !important;
+    border: 1px solid var(--bs-color-4) !important;
+    padding: 10px 35px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.BtnEmpty:hover {
+    color: var(--bs-color-4) !important;
+    background-color: white !important;
+}
+.filterSearch .BtnSearch2 {
+    color: var(--bs-color-2);
+    background-color: var(--bs-color-1);
+    border: 1px solid var(--bs-color-1);
+}
+.filterSearch .BtnSearch2:hover {
+    color: var(--bs-color-1);
+    background-color: var(--bs-color-2);
+}
+
+/* projectsPage Style */
+.projectsPage .projectItems .img-project .projectBg{
+    height: 400px;
+    background: linear-gradient(178.65deg, rgba(217, 217, 217, 0) -8.82%, #022858 98.85%);
+}
+.projectsPage .projectItems .projectdetail {bottom: 10px;}
+.projectsPage .projectItems .linkproject a {
+    border: 1px solid var(--bs-color-1);
+    font-size: 11pt;
+    padding: 10px 0px;
+    color: var(--bs-color-2);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.projectsPage .projectItems .linkproject a:hover {
+    border: 1px solid var(--bs-color-2);
+    color: var(--bs-color-1);
+}
+
+/* contactLinks style */
+.contactLinks {
+    background-color: var(--bs-color-2);
+    color: var(--bs-color-1);
+    padding: 80px 0px;
+}
+.contactLinks .Link i {
+    color: var(--bs-color-3);
+    font-size: 25pt;
+}
+.contactLinks .Link .centerlink {
+    border-right: 1px solid var(--bs-color-1);;
+    border-left: 1px solid var(--bs-color-1);;
+}
+/* map style */
+.map {height: 350px;}
+.map .mapouter .gmap_canvas a{
+    display: none !important;
+}
+/* FormContact Style */
+.FormContact {
+    margin: 100px 0px;
+}
+.FormContact p {font-size: 15pt;}
+.FormContact .form .form-control{
+    border-radius: 0px;border: 1px solid var(--bs-color-1);
+    color: var(--bs-color-2);
+}
+.FormContact .form .form-control::placeholder{
+    color: #D9D9D9;
+}
+.FormContact .form input.form-control{
+    padding: 15px 10px;
+}
+.FormContact .form .BtnSubject {
+    border: 1px solid var(--bs-color-1);
+    background: var(--bs-color-1);
+    color: var(--bs-color-2);
+    padding: 10px 40px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.FormContact .form .BtnSubject:hover{
+    background: none;
+    color: var(--bs-color-1);
+}
+
+
+/* Blog details style */
+.navBlog {
+    padding: 35px 0px;
+    background-color: var(--bs-color-1);
+}
+.navBlog a {
+    color: var(--bs-color-4);
+}
+.detailBlog {
+    margin-top: 100px;
+}
+.detailBlog h2{color: var(--bs-color-2);}
+.detailBlog .shareBlog {padding: 15px 10px;background-color: var(--bs-color-6);}
+.detailBlog .shareBlog a{color: white;}
+.detailBlog .describeBlog{color: var(--bs-color-4);line-height: 30px;}
+.detailBlog .otherBlog .img-other{
+    flex-basis: 45%;
+    height: 110px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.detailBlog .otherBlog .detailOther {
+    flex-basis: 55%;
+}
+.detailBlog a .otherBlog .detailOther h6{font-size: 11pt;line-height: 25px;color: rgba(10, 10, 10, 0.9);}
+.detailBlog a .otherBlog .detailOther p{font-size: 7pt;color: var(--bs-color-4);}
+.detailBlog a .otherBlog .detailOther .time,
+.detailBlog a .otherBlog .detailOther .time i{color: var(--bs-color-4);font-size: 9pt;}
+
+
+
+/* about style */
+.topAbout {margin-top: 100px;}
+.topAbout .bg-comma{
+    background-image: url('../img/icon/commabg.svg');
+    background-position: 5% 60%;
+    background-repeat: no-repeat;
+}
+.topAbout .aboutManager {margin-bottom: 100px;}
+.topAbout .aboutManager .bg-img{
+    background-color: var(--bs-color-6);
+    border-radius: 70px;
+    border-start-start-radius: 0px;
+}
+.topAbout .aboutManager h2,
+.bottomAbout .aboutCompany h1{color: var(--bs-color-2);}
+.topAbout .aboutManager p {width: 90%;font-size: 14pt;line-height: 35px;}
+.topAbout .aboutCompany p,
+.bottomAbout .aboutCompany p{color: var(--bs-color-4);font-size: 14pt;line-height: 35px;}
+.topAbout .aboutCompany p span,
+.bottomAbout .aboutCompany p span{color: var(--bs-color-2);}
+
+.bottomAbout {margin-bottom: 150px;margin-top: 100px;}
+.bottomAbout .aboutCompany:first-child{margin-bottom: 80px;}
+.bottomAbout .aboutCompany h1{position: relative;bottom: -15px;font-size: 50px;}
+
+/* detailproject style */
+.detailproject .video {height: 600px;}
+.detailproject .describeproject {padding-top: 30px;}
+.detailproject .describeproject .detailPrjects {color: #000000;}
+.detailproject .describeproject .priceDetails .price {
+    background-color: var(--bs-color-1);
+    color: var(--bs-color-2);
+    font-size: 15pt;
+    padding: 10px 20px;
+}
+.detailproject .describeproject .detailPrjects .item-feat .img-icon {
+    width: 35px;
+    height: 35px;
+    background-color: var(--bs-color-1);
+    border-radius: 8px;
+    display: flex;align-items: center;justify-content: center;
+}
+.detailproject .describeproject .detailPrjects .item-feat .img-icon img{
+    width: 60% !important;
+    height: auto;
+}
+.detailproject .describeproject .detailPrjects p{
+    font-size: 14pt;color: var(--bs-color-2);
+    font-weight: bold;
+}
+.detailproject .describeproject .detailPrjects .item-feat .desc {font-size: 10pt;font-weight: bold;}
+.detailproject .describeproject .detailPrjects .item-feat span {color: var(--bs-color-2);}
+.detailproject .describeproject .contactBtns a {
+    padding: 13px 0px;
+    color: white;
+    font-size: 10pt;
+    border-radius: 8px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.detailproject .describeproject .contactBtns a.BtnWhats {
+    background-color: var(--bs-color-2);
+    border: 1px solid var(--bs-color-2);
+}
+.detailproject .describeproject .contactBtns a.BtnWhats:hover{color: var(--bs-color-2);background-color: white;}
+.detailproject .describeproject .contactBtns a.BtnPhone:hover{color: var(--bs-color-3);background-color: white;}
+.detailproject .describeproject .contactBtns a.BtnPhone {
+    background-color: var(--bs-color-3);
+    border: 1px solid var(--bs-color-3);
+}
+.detailproject .describeproject h6{font-size: 20pt;color: var(--bs-color-2);margin-bottom: 20px;}
+.detailproject .describeproject h2,.gallery h2{color: rgba(10, 10, 10, 0.9);}
+.detailproject .describeproject p{color: var(--bs-color-4);line-height: 30px;font-size: 11pt;}
+.detailproject .dataproject{background-color: var(--bs-color-2);padding: 25px 0px;color: white;}
+.detailproject .dataproject .item{
+    font-size: 13pt;
+    flex: 20%;
+}
+.detailproject .dataproject a{
+    color: var(--bs-color-2);
+    border: 1px solid white;
+    background: white;
+    padding: 10px 15px;
+    font-size: 11pt;
+    border-radius: 5px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.detailproject .dataproject a:hover {
+    background: none;
+    color: white;
+}
+
+.gallery div img {
+    height: 165px;
+    cursor: pointer;
+}
+.gallery .navigategallery li:first-child a,
+.gallery .navigategallery li:last-child a{border: none !important;}
+.gallery .navigategallery li:first-child a i,
+.gallery .navigategallery li:last-child a i{font-size:20pt;color: var(--bs-color-1);}
+.gallery .navigategallery li.active a{
+    border: 1px solid var(--bs-color-1);
+    color: var(--bs-color-1);
+}
+.gallery .navigategallery li a{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none !important;
+    font-size: 15pt;
+    color: #D9D9D9;
+}
+.gallery .GallaryContainer .navgation button {
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    border: 0px;
+    top: 0px;
+    z-index: 2;
+}
+.gallery .GallaryContainer .navgation button i{font-size: 40px;color: white;}
+.gallery .GallaryContainer .navgation button.owl-prev-custom {
+    right: 0px;
+    background: linear-gradient(-90deg,#3A3A3A,#D9D9D900);
+}
+.gallery .GallaryContainer .navgation button.owl-next-custom {
+    left: 0px;
+    background: linear-gradient(90deg,#3A3A3A,#D9D9D900);
+}
+.accordion .accordion-button {
+    background: none;
+    color: var(--bs-color-2);
+}
+.accordion .accordion-button::after {
+    margin-right: 5px;
+}
+.accordion .topaccordion {
+    background-color: var(--bs-color-2);
+}
+.bottomaccordion {margin-top: 100px;}
+.bottomaccordion h3{color: var(--bs-color-2);}
+.bottomaccordion .cardproject {
+    box-shadow: 0px 1px 11px 4px rgba(0, 0, 0, 0.08);
+    padding: 20px 15px 30px 15px;
+}
+.bottomaccordion .cardproject h3{color: var(--bs-color-2);}
+.bottomaccordion .cardproject .feat span{font-size: 10pt;}
+.bottomaccordion .cardproject .BtnDetail a {
+    border: 1px solid var(--bs-color-2);
+    color: var(--bs-color-2);
+    padding: 8px;
+    font-size: 9pt;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.bottomaccordion .cardproject .statusBox {
+    left: 0;
+    top: 20px;
+}
+.bottomaccordion .cardproject .status {
+    padding: 5px 25px 5px 25px;
+    border-start-start-radius: 25px;
+    border-end-start-radius: 25px;
+    color: white;
+    font-size: 10pt;
+}
+
+.bottomaccordion .cardproject .StatusFeat {
+    right: 0;
+    bottom: 20px;
+    padding: 8px 15px 8px 15px;
+    border-start-end-radius: 5px;
+    border-end-end-radius: 5px;
+    color: white;
+    font-size: 10pt;
+}
+.bottomaccordion .cardproject .StatusFeat.Available {background-color: #7FC666;}
+.bottomaccordion .cardproject .status.Available{background-color: var(--bs-color-2);}
+.bottomaccordion .cardproject .status.Aqarstatus{
+    background-color: #F0F0F0;
+    color: var(--bs-color-4);
+}
+.bottomaccordion .cardproject .status.UnAvailable,
+.bottomaccordion .cardproject .StatusFeat.UnAvailable{background-color: rgb(228, 59, 59);}
+.bottomaccordion .cardproject .BtnDetail a:hover{
+    color: white;
+    background: var(--bs-color-2);
+}
+.bottomaccordion .cardproject .BtnDetail a i{transform: rotate(45deg);}
+.bottomaccordion .filterProject {
+    width: 30%;
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin: auto;
+    font-size: 13pt;
+    border: 1px solid var(--bs-color-1);
+    color: var(--bs-color-4);
+}
+.bottomaccordion .filterProject span{
+    cursor: pointer;
+    position: relative;
+} 
+.bottomaccordion .filterProject .active{
+    color: var(--bs-color-2);
+}
+.bottomaccordion .filterProject .active::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    bottom: -5px;
+    left: 50%;
+    background-color: var(--bs-color-2);
+} 
+.bottomaccordion .cardproject .nameEjar{
+    background-color: #F2F2F2;
+    color: #000000;
+    border-radius: 7px;
+}
+
+.formConnection {
+    margin-top: 120px;
+    box-shadow: 0px 8px 30px 0px  rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.formConnection .topContect {
+    background-color: #FAFAFA;
+    padding: 40px 30px 40px 30px;
+}
+.formConnection .topContect i{font-size: 8pt;color: var(--bs-color-1);padding-top: 10px;}
+.formConnection .topContect h3{color: var(--bs-color-2);}
+.formConnection .topContect p{
+    color: var(--bs-color-4);
+    font-size: 13pt;
+    width: 75%;
+}
+.formConnection .ProjectFormContact {
+    padding: 0px 50px 0px 50px;
+}
+.formConnection .ProjectFormContact .form-control{
+    padding: 10px;
+    color: var(--bs-color-4);
+    border: 1px solid var(--bs-color-4);
+}
+.formConnection .ProjectFormContact .form-control::placeholder {
+    color: #D9D9D9;
+}
+.formConnection .img-contact img{
+    border-start-end-radius: 15px;
+    border-end-end-radius: 15px;
+}
+.modalProjectDetail .modal-dialog .modal-content{
+    background-color: var(--bs-color-2);
+    color: white;
+    padding: 40px;
+}
+.modalProjectDetail .modal-dialog .modal-content .modal-header button{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: var(--bs-color-2);
+    opacity: 1;
+    border-radius: 50%;
+    font-size: 10pt;
+}
+.modalProjectDetail .modal-dialog .modal-content .gallery div img{
+    height: 250px;
+}
+.modalProjectDetail .modal-dialog .modal-content .status {
+    left: 0;
+    top: 20px;
+    padding: 10px 35px 10px 35px;
+    border-start-start-radius: 25px;
+    border-end-start-radius: 25px;
+    color: white;
+    font-size: 12pt;
+}
+.modalProjectDetail .modal-dialog .modal-content .status.Available {
+    background-color: #83C5ED;
+}
+.modalProjectDetail .modal-dialog .modal-content .status.status.UnAvailable {
+    background-color: rgb(228, 59, 59);
+}
+
+.modalProjectDetail .modal-dialog .modal-content .modalForm{
+    color: var(--bs-color-1);
+}
+.modalProjectDetail .modal-dialog .modal-content .modalForm .form-control{
+    padding: 10px;
+    color: var(--bs-color-4);
+    border: 1px solid var(--bs-color-4);
+    background-color: rgba(0, 0, 0, 0);
+}
+.modalProjectDetail .modal-dialog .modal-content .modalForm .form-control::placeholder {
+    color: #D9D9D9;
+}
+/* footer */
+.footer {
+    margin-top: 100px;
+    background: linear-gradient(266.75deg, #022858 0%, #083D5E 100%);
+    color: var(--bs-color-1);
+}
+.footer .topfooter {
+    padding: 50px 0px;
+}
+.footer .footerItemlink .row{
+    padding: 25px 0px;
+    border-bottom: 0.5px solid white;
+    border-top: 0.5px solid white;
+    width: 80%;
+    margin: auto;
+}
+.footer .footerItemlink a,
+.footer .footerItemlink .dataContact span{
+    color: var(--bs-color-1);
+    margin-bottom: 10px;
+    font-size: 11pt;
+    
+}
+.footer .footerItemlink a span{
+    position: relative;
+    left: 0px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.footer .footerItemlink a:hover span {
+    left: -5px;
+}
+.footer .footerItemlink a i{color: var(--bs-color-3);}
+.footer .footerItem p{font-size: 10pt;}
+.footer .linkFooter a{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: var(--bs-color-3);
+    font-size: 10pt;
+    justify-content: center;
+    align-items: center;
+    color: var(--bs-color-2);
+    position: relative;
+    top: 0px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.footer .linkFooter a:hover{
+    top: -5px;
+}
+.footer .copyRight{font-size: 10pt;}
+

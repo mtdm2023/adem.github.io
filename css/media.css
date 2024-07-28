@@ -1,0 +1,265 @@
+
+@media (min-width: 992px) and (max-width:1200px) {  
+    /* height Imgs */
+    .Projects .SliderProjects .card .card-img img {height: 300px;}
+    .blog .blogItems .blogItem .img-blog img {height: 220px;}
+    .projectsPage .projectItems .img-project .projectBg {height: 300px;}
+    .Top-Navbar .navWeb .lang {padding-right: 60px;}
+    .filterSearch .formfilter .formspecial {width: 95%;}
+}
+@media (max-width:991.98px) {
+    /* Navbar Setting */
+    .navbar {padding: 10px 0px !important;}
+    .Top-Navbar .navWeb .lang {
+        padding: 0px;
+        border: none;
+    }
+    .Top-Navbar .navWeb .navbar-nav,
+    .Top-Navbar .navWeb .lang {margin: 0px !important;}
+    .Top-Navbar .navWeb {height: auto;}
+    .Top-Navbar .navWeb .lang {justify-content: center;}
+    .Top-Navbar .navWeb .nav-link{ margin: 0px;}
+    .filterSearch .filterselect {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width:991.98px) {  
+    /* height Imgs */
+    .Projects .SliderProjects .card .card-img img {height: 220px;}
+    .blog .blogItems .blogItem .img-blog img {height: 160px;}
+    .projectsPage .projectItems .img-project .projectBg {height: 250px;}
+
+    /* Margins Style */
+    .Projects,.whyAdeam,.success,.blog,.footer{margin-top: 80px;}
+    .Allprojectlink {margin-top: 30px;}
+
+    /* Padding Style */
+    .whyAdeam,.footer .topfooter{padding: 30px 0px;}
+    .success{padding-bottom: 50px;}
+    .Top-Navbar .Sliderbg {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .Top-Navbar .Slider .describeSlider {width: 100%;}
+    .whyAdeam::before {width: 70%;}
+    .success .successNumbers .successNumber h4 {font-size: 15pt;}
+    .tmalik .tmalikBg .describetmalik p {font-size: 11pt;width: 100%;}
+
+    .topAbout .aboutManager p {
+        width: 100%;
+        font-size: 12pt;
+    }
+    .topAbout .aboutCompany p, .bottomAbout .aboutCompany p{font-size: 12pt;}
+    .contactLinks .Link {width: 90% !important;}
+    .FormContact .form {width: 70% !important;}
+
+    /* New Styles */
+    .bottomaccordion .filterProject{width: 45%;}
+    .formConnection .ProjectFormContact{margin-bottom: 30px;}
+    .modalProjectDetail .modal-dialog .modal-content {padding: 10px;}
+    .filterSearch .formfilter .formspecial .optionTypes {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width:767.98px) {
+    .container{width: 95% ;margin: auto;}
+    /* Margins Style */
+    .Projects,.whyAdeam,.success,.blog,.footer,.topAbout,.bottomAbout,
+    .detailBlog{margin-top: 50px;}
+    .Allprojectlink {margin-top: 30px;}
+    .topAbout .aboutManager,.bottomAbout {margin-bottom: 50px;}
+    .bottomAbout .aboutCompany:first-child {margin-bottom: 0px;}
+    .FormContact {margin: 50px 0px;}
+
+    /* Padding Style */
+    .whyAdeam,.footer .topfooter,.contactLinks{padding: 30px 0px;}
+    .success{padding-bottom: 50px;}
+    .Top-Navbar .Sliderbg,
+    .Top-Navbar .Slidersm {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .Top-Navbar .Slider .describeSlider {width: 100%;}
+    .Top-Navbar .Slider .describeSlider h1 {
+        line-height: 40px;
+        font-size: 18pt;
+    }
+    .Top-Navbar .Slider .describeSlider p {
+        line-height: 35px;
+        font-size: 12pt;
+        width: 100%;
+        top: -26px;
+    }
+    .Projects .headerProject .navgation{width: 140px;}
+    .Projects .headerProject .navgation .btntype1 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .whyAdeam::before {
+        width: 100%;
+    }
+    .whyAdeam .whydescribe {
+        width: 100%;
+        font-size: 12pt;
+    }
+    .success .successNumbers .successNumber h4 {font-size: 15pt;}
+    .tmalik .tmalikBg .describetmalik p,
+    .topAbout .aboutManager p ,
+    .topAbout .aboutCompany p, 
+    .bottomAbout .aboutCompany p{
+        width: 100%;
+        padding: 0px !important;
+        font-size: 12pt;
+        line-height: 30px;
+        border: none;
+    }
+    .tmalik .tmalikBg .describetmalik{border: none;}
+    .tmalik .tmalikBg .titletmalik {
+        line-height: 50px;   
+    }
+    .tmalik .tmalikBg .describetmalik::before{display: none;}
+    .blog .title span::before {
+        top: 12px;
+        display: none;
+    }
+    .blog .blogItems .blogItem h5 {font-size: 11pt;}
+    .footer .footerItemlink .row{width: 100%;border: none;}
+    .blog .blogItems .row {width: 60%;margin: auto;}
+    /* height Imgs */
+    .Projects .SliderProjects .card .card-img img {height: 215px;}
+    .detailproject .video{height: 400px;}
+    .gallery div img{height: 160px;}
+
+    .contactLinks .Link {width: 80% !important;}
+    .contactLinks .Link .centerlink{
+        border: none;
+        border-top: 1px solid var(--bs-color-1);
+        border-bottom: 1px solid var(--bs-color-1);
+        padding-bottom: 20px;
+    }
+    .contactLinks .Link i {font-size: 20pt;}
+    .FormContact p {font-size: 12pt;}
+    .FormContact .form {width: 70% !important;}
+    .projectsPage .projectItems .img-project .projectBg {height: 300px;}
+    .filterSearch {padding: 30px;}
+    .filterSearch .filterselect {margin-bottom: 20px;}
+
+    .detailBlog h2{font-size: 16pt;}
+
+    /* New Styles */
+    .bottomaccordion .filterProject{width: 65%;}
+    .formConnection .ProjectFormContact{
+        margin-bottom: 30px;
+    }
+    .modalProjectDetail .modal-dialog .modal-content {padding: 10px;}
+    .filterSearch .formfilter .formspecial {width: 100%;}
+    .filterSearch .formfilter .formspecial .optionTypes {
+        flex-wrap: wrap;
+    }
+
+    .detailproject .describeproject .priceDetails {
+        margin-bottom: 30px !important;
+    }
+    .detailproject .describeproject .priceDetails .price {
+        font-size: 12pt;
+    }
+}
+
+/* sm */
+@media (max-width:600.98px) {
+    /* height Imgs */
+    .Projects .SliderProjects .card .card-img img {height: 254px;}
+    .blog .blogItems .blogItem .img-blog img {height: 215px;}
+    .blog .blogItems .row {width: 60%;margin: auto;}
+    .FormContact .form {width: 100% !important;}
+
+    .filterSearch {padding: 20px;}
+    .filterSearch .filterselect {margin-bottom: 20px;}
+    
+}
+/* Xs */
+@media (max-width:575.98px) {
+    /* height Imgs */
+    .blog .blogItems .blogItem .img-blog img {height: 210px;}
+    .Projects .SliderProjects .card .card-img img {height: 285px;}
+    .detailproject .video{height: 350px;}
+    .gallery div img {height: 135px;}
+
+    .blog .blogItems .row {width: 80%;margin: auto;}
+    .projectsPage .projectItems .img-project .projectBg {height: 300px;}
+    .detailBlog .otherBlog .img-other {
+        flex-basis:40%;
+        height: 90px;
+    }
+    .detailBlog .otherBlog .detailOther {
+        flex-basis:60%;
+        padding-right: 10px !important;
+    }
+    .detailproject .dataproject .item {
+        flex: 30%;
+        text-align: center;
+    }
+    .gallery .row {width: 70%;margin: auto;}
+
+    /* New Styles */
+    .formConnection {margin-top: 50px;}
+    .gallery .GallaryContainer .navgation button{width: 50px;}
+    .bottomaccordion .filterProject {width: 80%;}
+    .formConnection .topContect {
+        padding: 20px 10px 20px 10px;
+    }
+    .formConnection .ProjectFormContact{
+        padding: 0px 10px 0px 10px;
+        margin-bottom: 30px;
+    }
+    .formConnection .topContect p {width: 100%;font-size: 11pt;}
+    .modal-flex {
+        flex-wrap: wrap;
+    }
+    .filterSearch .formfilter .formspecial .optionTypes label {
+        width: 80px;
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+    .filterSearch .formfilter .formspecial .optionTypes .check {
+        width: 15px;
+        height: 15px;
+
+    }
+    .filterSearch .formfilter .formspecial .optionTypes input[type='radio']:checked + .check .slelected {
+        width: 5px;
+        height: 5px;
+    }
+    
+} 
+@media (max-width:375.98px) { 
+    /* height Imgs */
+    .blog .blogItems .blogItem .img-blog img {height: 250px;}
+    .Projects .SliderProjects .card .card-img img {height: 290px;}
+    .blog .blogItems .row {width: 100%;margin: auto;}
+    .detailproject .video{height: 300px;}
+    .gallery div img {height: 130px;}
+
+    .detailproject .dataproject .item {flex: 30%;}
+    .gallery .row {width: 100%;margin: auto;}
+
+    .bottomaccordion .filterProject {width: 100%;}
+    .detailproject .describeproject .titlePro {
+        
+        flex-wrap: wrap;
+        align-items: start !important;
+    }
+}
+@media (max-width:320.98px) { 
+
+    /* height Imgs */
+    .blog .blogItems .blogItem .img-blog img {height: 210px;}
+    .Projects .SliderProjects .card .card-img img {height: 275px;}
+    .gallery div img{height: 255px;}
+}
+
+
+
